@@ -20,5 +20,7 @@ func main() {
 	s := make([]string, len(c))
 	copy(s, c)
 	fmt.Println("cpy:", s)
+	fmt.Println("splice", s[:2])
+	fmt.Println("splice", s[2:])
 
 }
